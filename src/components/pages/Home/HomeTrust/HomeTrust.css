@@ -1,0 +1,38 @@
+@keyframes dots{
+    from{
+        opacity: 10%;
+    }
+    to{
+        opacity: 50%;
+
+    }
+}
+
+
+.dots{
+    animation:dots 800ms infinite alternate
+}
+
+
+@keyframes showElement {
+    from {
+        opacity: 0;
+     
+       
+    }
+
+    to {
+        opacity: 100%;
+        
+    }
+}
+
+
+
+.showElement {
+    opacity: 0;
+    animation: showElement 500ms 1 forwards alternate;
+    
+    
+}
+
