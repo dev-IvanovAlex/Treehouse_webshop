@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CardHome = () => {
   return (
-    <div>
+    <div className="shrink-0">
       <img
         className="max-h-[380px]"
         src="../src/assets/images/Frame 2064.png"
@@ -16,7 +16,7 @@ const CardHome = () => {
           src="../src/assets/images/prev.svg"
           alt=""
         />
-        <Link className="text-[#50735F]">VIEW PRODUCTS</Link>
+        <Link className="text-[#50735F] ">VIEW PRODUCTS</Link>
       </div>
     </div>
   );

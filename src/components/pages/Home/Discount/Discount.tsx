@@ -3,7 +3,7 @@ import ButtonWithArrow from "../../../ButtonWithArrow/ButtonWithArrow";
 
 const Discount = () => {
   return (
-    <div className="grid grid-cols-2 mt-[108px] sm:px-[2vw] md:px-[4vw] lg:px-[6vw] mb-[160px]">
+    <div className="flex flex-col-reverse sm:grid sm:grid-cols-2 mt-[108px] sm:px-[2vw] md:px-[4vw] lg:px-[6vw] mb-[160px]">
       <div className=" bg-[#ADBBC4] text-white text-center min-h-[560px]">
         <div className="relative h-full  max-w-[315px] m-auto ">
           <img
@@ -18,12 +18,12 @@ const Discount = () => {
             options, dressing your littles in no time!
           </p>
           <ButtonWithArrow
-            arrowRoundedStyles={"bg-[#C58A46]"}
-            buttonStyles={"bg-[#C58A46]"}
-            arrowStyle={"[&>path]:fill-white"}
+            buttonStyles="bg-[#C58A46] text-nowrap group-hover:bg-[#ffa136] group-hover:text-[#726454] group-active:bg-[#50735F] group-active:text-white transition-all"
+            arrowRoundedStyles="bg-[#C58A46] group-hover:bg-[#ffa136]  group-active:bg-[#50735F] transition-all"
+            arrowStyle="[&>path]:fill-white [&>path]:group-hover:fill-[#726454] [&>path]:group-active:fill-white [&>path]:transition-all"
           />
           <img
-            className="absolute bottom-[-110px] left-[10px] max-h-[256px]"
+            className="absolute bottom-[-60%] left-[50%] translate-x-[-50%] sm:translate-x-[0]  sm:bottom-[-110px] sm:left-[10px] max-h-[180px] sm:max-h-[256px]"
             src="../src/assets/images/Frame 2060.png"
             alt=""
           />

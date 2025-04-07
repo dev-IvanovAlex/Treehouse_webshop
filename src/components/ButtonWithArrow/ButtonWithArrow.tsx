@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import ArrowRounded from "../SVG/Arrow/ArrowRounded";
 
 type ButtonWithArrowProps = {
@@ -13,8 +13,10 @@ const ButtonWithArrow: FC<ButtonWithArrowProps> = ({
   arrowStyle,
 }) => {
   return (
-    <div className="inline-flex mt-12 cursor-pointer">
-      <button className={`${buttonStyles} + px-12 py-3 rounded-[80px] `}>
+    <div className="inline-flex mt-12 cursor-pointer group">
+      <button
+        className={`${buttonStyles} + px-6 sm:px-12 py-3 rounded-[80px] `}
+      >
         SHOP NOW
       </button>
       <ArrowRounded

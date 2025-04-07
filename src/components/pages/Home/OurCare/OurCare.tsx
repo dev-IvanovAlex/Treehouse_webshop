@@ -2,11 +2,13 @@ import React from "react";
 
 const OurCare = () => {
   return (
-    <div className="grid grid-cols-2 text-[#50735F] mt-[150px] sm:px-[2vw] md:px-[4vw] lg:px-[6vw]">
-      <div className="flex flex-col justify-between">
+    <div className="grid grid-cols-1  sm:grid-cols-2 gap-x-2 text-[#50735F] mt-[150px] px-[1%] sm:px-[2%] md:px-[3%] lg:px-[4%] xl:px-[5%]">
+      <div className="flex flex-col justify-between items-center">
         <div className="max-w-[425px]">
           <p className="text-sm">OUR CARE</p>
-          <h2 className="text-5xl">We prioritize your peace of mind.</h2>
+          <h2 className="text-4xl sm:text-5xl">
+            We prioritize your peace of mind.
+          </h2>
           <div className="flex mt-10">
             <p className="font-[Northwell] text-4xl">1</p>
             <p className="text-xl pl-2">SAVING YOUR TIME </p>
@@ -28,15 +30,15 @@ const OurCare = () => {
             decision making. Always.
           </p>
         </div>
-        <div className="">
+        <div className="mb-20 sm:mb-0">
           <img
-            className="max-h-[260px] m-auto"
+            className="max-h-[260px] mt-2 sm:mt-0 sm:m-auto"
             src="../src/assets/images/Comp2.svg"
             alt=""
           />
         </div>
       </div>
-      <div className="relative flex flex-col items-end ">
+      <div className="relative flex flex-col items-center sm:items-end ">
         <img
           className="absolute top-[-90px] right-0 z-1"
           src="../src/assets/images/wand.png"
